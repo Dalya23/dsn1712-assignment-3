@@ -1,4 +1,20 @@
 * {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+}
+
+header nav ul {
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
 
 header {
@@ -96,7 +112,8 @@ h1 {
   margin-bottom: 0;
 }
 
-.grid a:link {
+.btn,
+.btn:visited {
   margin-top: auto;
 
   display: inline-block;
@@ -253,5 +270,4 @@ footer {
 .art {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-column-rows: ;
 }
